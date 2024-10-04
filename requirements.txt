@@ -6,6 +6,7 @@ charset-normalizer==3.3.2
 curtsies==0.4.2
 cwcwidth==0.1.9
 Django==5.1.1
+djangorestframework==3.15.2
 greenlet==3.1.0
 idna==3.10
 Pygments==2.18.0
