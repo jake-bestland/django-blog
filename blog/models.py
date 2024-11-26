@@ -5,3 +5,6 @@ class Post(models.Model):
     title = models.CharField(max_length=140)
     text = models.TextField()
     published = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-published']

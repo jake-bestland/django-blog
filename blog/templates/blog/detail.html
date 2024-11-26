@@ -2,9 +2,16 @@
 
 {% block content %}
 
-    <h1>Hello Detail</h1>
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.text }}</p>
-    <p><em>{{ post.published }}</em></p>
+    <div class="text-center">
+        <h1><Strong>Blog Detail</Strong></h1>
+    </div>
+    <div class="container">
+        <h2><strong>{{ post.title }}</strong></h2>
+        <br>
+        
+        
+        <p> {{ post.text }}</p>
+        <p><em><small> -{{ post.published }} </small></em></p>
+    </div>
 
 {% endblock content %}
