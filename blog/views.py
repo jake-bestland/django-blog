@@ -11,7 +11,7 @@ from django.views import generic
 
 class PostListView(generic.ListView):
     model = Post
-    paginate_by = 5
+    paginate_by = 6
     template_name = 'blog/index.html'
 
 class PostDetailView(generic.DetailView):
