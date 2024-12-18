@@ -3,21 +3,12 @@
     {% block content %}
 
     <!-- HTML elements with Bootstrap classes -->
-    <div class="px-4 py-5 text-center">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1><Strong>Sample Blog App</Strong></h1>
-          <p class="lead fw-normal fs-4">By: Blog Author</p>
-        </div>
-      </div>
-      
-    </div>
     
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">
       {% for post in post_list %}
         <div class="col">
-          <div class="card m-3">
+          <div class="card m-3" style="background-color: #FFFDF2;">
             <div class="card-body">
               <h1 class="card-title">{{ post.title }}</h1>
               <p class="card-text text-muted small">{{ post.published }}</p>
